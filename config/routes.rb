@@ -1,4 +1,16 @@
 FlatEarthMuseum::Application.routes.draw do
+  get "pages/home"
+
+  get "pages/visit"
+
+  get "pages/about"
+
+  get "pages/members"
+
+  get "pages/store"
+
+  get "pages/contact"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
