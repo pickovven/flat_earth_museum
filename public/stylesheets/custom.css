@@ -1,0 +1,191 @@
+.container {
+  width: 900px;
+}
+
+body {
+  background: #afa819;
+}
+
+header {
+  padding-top: 20px;
+}
+
+header img {
+  padding: 1em;
+  background: #fff;
+}
+
+section {
+  margin-top: 1em;
+  font-size: 120%;
+  padding: 20px;
+  background: #fff;
+}
+
+section h1 {
+  font-size: 200%;
+}
+
+/* Links */
+
+a {
+  color: #09c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #fa4d00;
+}
+
+/* Top Level Menu */
+
+#menu {
+  background-color:#fa4d00;
+  font-size:24px;
+}
+
+#menu ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+}
+
+#menu ul li {
+  float:left;
+  padding-left:12px;
+  font: century;
+}
+
+  #menu li:hover ul {
+    display: block;
+    width: 240px;
+    }
+
+  #menu ul li ul {
+    display: block;
+    }
+
+  #menu ul li ul {
+    list-style-type:none;
+    position: absolute;
+    z-index: 500;
+  }
+  
+  #menu ul li ul {
+    background-color:#fa4d00;
+  }
+  
+  #menu ul li ul a {
+    display:block;
+  }
+
+#menu a:link,a:visited {
+  display:block;
+  width:120px;
+  font-weight:bold;
+  color:#FFFFFF;
+  background-color:#fa4d00;
+  text-align:center;
+  padding:4px;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+
+#menu a:hover,a:active {
+  background-color:#FFFFFF;
+}
+
+div#menu ul li ul,
+div#menu ul li:hover ul
+div#menu ul ul li:hover ul ul
+{display: none;}
+
+div#menu ul li:hover ul,
+div#menu ul ul li:hover ul,
+div#menu ul ul ul li:hover ul
+{display: block;} 
+
+/* Navigation */
+
+nav {
+  float: right;
+  background-color: white;
+  padding: 0 0.7em;
+  white-space: nowrap;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0.2em 0;
+}
+
+nav ul li a {
+  padding: 0 5px;
+  font-weight: bold;
+}
+
+nav ul li a:visited {
+  color: #09c;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+nav div#search {
+  float: right;
+}
+
+/* Round corners */
+
+.round {
+  -moz-border-radius:    10px;
+  -webkit-border-radius: 10px;
+  border-radius:         10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 10px;
+  width: 710px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer nav {
+  float: none;
+}
+
+
+
+/* Slideshow */
+
+.slideshow {
+  width:860px;
+  height: 300px;
+  overflow:hidden;
+}
+#slideshow { 
+  margin:5;
+  padding:5;
+}
+
+
+
