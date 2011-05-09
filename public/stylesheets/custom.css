@@ -99,6 +99,7 @@ a:visited {
 
 #menu a:hover,a:active {
   background-color:#FFFFFF;
+  color: #fa4d00;
 }
 
 div#menu ul li ul,
