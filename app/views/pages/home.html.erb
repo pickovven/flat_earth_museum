@@ -1,5 +1,19 @@
-  <div class="container">
-	  <%= render 'pages/slideshow' %>
+<div>
+  <div id = "slideshow">
+    <%= render 'pages/slideshow' %>
   </div>
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+  <div id = "rightdiv">
+    <p>Purchase your T-shirt today!</p>
+    <%=image_tag("flatearthtshirt.png", :alt => "Flat Earth Museum T-Shirt", :class => "round")%>
+  </div>
+  <div id = "leftdiv">
+    <h1>The Flat Earth Museum Online</h1>
+    <p>Here at the flat earth museum we work hard to spread the word.  
+    We are well aware of the round earth theories and hope to privde perspective
+    in a world dominated by one view.</p>
+    <p>Like anyone that has ever tried to stand on a ball,
+    we know the irrefutable fallacies of Newton, Galileo, and Copernicus.
+    We hope after spending some time on our website you'll agree.  And maybe,
+    you'll even buy a t-shirt.</p> 
+  </div>
+</div>
