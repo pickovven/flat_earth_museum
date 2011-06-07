@@ -109,7 +109,6 @@ nav div#search {
   width:120px;
   font-weight:bold;
   color:#FFFFFF;
-  background-color:#fa4d00;
   text-align:center;
   padding:4px;
   text-decoration:none;
@@ -182,38 +181,37 @@ a:hover {
 footer {
   position: relative;
   margin-top: 10px;
-  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
 footer nav {
-  top: 0px;
   width: 100%;
   height: auto;
+  margin-bottom:10px;
 }
 
 footer nav ul {
   list-style-type:none;
-  margin:0;
-  padding: 5px;
-  display:inline;
 }
 
 footer nav ul li {
   text-decoration: bold;
   font-size: 14px;
   padding: 10px;
-  width: 25%;
 }
 
 footer nav ul li ul li {
   text-decoration: none;
   padding: 0px;
-  font-size: 10px;
+  font-size: 12px;
   display:block;
-  list-style-type:none;
   z-index: 500;
+}
+
+#socialmedia {
+  margin-left: 10px;
+  margin-right: auto;
 }
 
 /* Slideshow */
