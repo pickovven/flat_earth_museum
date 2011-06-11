@@ -15,8 +15,8 @@ class PagesController < ApplicationController
     @title = "Members"
   end
 
-  def store
-    @title = "Store"
+  def shop
+    @title = "Shop"
   end
 
   def contact

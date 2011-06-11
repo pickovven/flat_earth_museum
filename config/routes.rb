@@ -2,13 +2,15 @@ FlatEarthMuseum::Application.routes.draw do
   
   root :to => 'pages#home'
 
+  match '/home', :to => 'pages#home'
+  
   match '/contact', :to => 'pages#contact'
 
   match '/about', :to => 'pages#about'
 
   match '/members', :to => 'pages#members'
 
-  match '/store', :to => 'pages#store'
+  match '/shop', :to => 'pages#shop'
 
   match '/visit', :to => 'pages#visit'
   
